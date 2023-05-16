@@ -1,1 +1,0 @@
-# browserstack-app-automate-example
