@@ -43,7 +43,7 @@ exports.config = {
 
   updateJob: false,
   specs: [
-    './test/**/*.js'
+    './test/android/**/*.js'
   ],
   exclude: [],
   logLevel: 'info',

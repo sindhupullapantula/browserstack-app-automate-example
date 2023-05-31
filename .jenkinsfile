@@ -4,8 +4,8 @@ stages {
     stage('test') {
         steps {
                 sh 'npm install'
-                // sh 'npm run test-local'
-                sh 'npm run test-bs'
+                // sh 'npm run test-local-android'
+                sh 'npm run test-bs-android'
                 sh 'npm run test-local-ios'
                 sh 'npm run test-bs-ios'
             }

@@ -9,7 +9,7 @@ exports.config = {
       }
     },
     specs: [
-      './test/**/*.js'
+      './test/android/**/*.js'
     ],
     capabilities: [{
         platformName: 'Android',
