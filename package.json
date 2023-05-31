@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test-local": "npx wdio wdio.conf.js",
-    "test-bs": "npx wdio bs.conf.js"
+    "test-local-ios": "npx wdio wdio.ios.conf.js",
+    "test-bs": "npx wdio bs.conf.js",
+    "test-bs-ios": "npx wdio bs.ios.conf.js"
   },
   "keywords": [],
   "author": "",
